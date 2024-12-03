@@ -84,7 +84,7 @@ if(signOut){
     })
 }
 
-if (!(localStorage.getItem("indexLogged")) && window.location.pathname == "/home.html") {
+if (!(localStorage.getItem("indexLogged")) && document.body.getAttribute("id") == "home") {
     window.close()
     window.open("/login.html")
 }
