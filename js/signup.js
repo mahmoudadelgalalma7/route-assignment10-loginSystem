@@ -25,7 +25,7 @@ function saveUser() {
         usersList.push(user)
         localStorage.setItem("Users",JSON.stringify(usersList))
         alert("SignedUp Successfully! Go To Login Page")
-        window.open("/login.html")
+        window.open("login.html")
     } else {
         errMsg.innerHTML = err
     }

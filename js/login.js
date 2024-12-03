@@ -59,7 +59,7 @@ if (loginBtn) {
         if(checkLogin()){
             alert("Login Successfully! Go To Home Page")
             window.close()
-            window.open("/home.html")
+            window.open("home.html")
         } else {
             errMsg.innerHTML = err
             clearInputs_Login()
@@ -79,7 +79,7 @@ if(signOut){
     signOut.addEventListener('click',function(){
         localStorage.removeItem("indexLogged")
         window.close()
-        window.open("/login.html")
+        window.open("login.html")
     
     })
 }
