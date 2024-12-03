@@ -86,5 +86,5 @@ if(signOut){
 
 if (!(localStorage.getItem("indexLogged")) && document.body.getAttribute("id") == "home") {
     window.close()
-    window.open("/login.html")
+    window.open("login.html")
 }
